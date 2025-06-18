@@ -1,0 +1,2291 @@
+{
+  "mod_elements": [
+    {
+      "name": "AdminShop",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "admin_shop",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/command/AdminShopCommand.java"
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "AdminshopEdit",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adminshop_edit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/command/AdminshopEditCommand.java"
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "AdminshopP1",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adminshop_p_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/world/inventory/AdminshopP1Menu.java",
+          "src/main/java/net/adm/client/gui/AdminshopP1Screen.java",
+          "src/main/java/net/adm/network/AdminshopP1ButtonMessage.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "AdminshopEDITMODE",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adminshop_editmode",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/world/inventory/AdminshopEDITMODEMenu.java",
+          "src/main/java/net/adm/client/gui/AdminshopEDITMODEScreen.java",
+          "src/main/java/net/adm/network/AdminshopEDITMODEButtonMessage.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "OpensADMINSHOP",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opens_adminshop",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/procedures/OpensADMINSHOPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminShop/OpenGUI"
+    },
+    {
+      "name": "OpenADMINSHOPEDIT",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_adminshopedit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/procedures/OpenADMINSHOPEDITProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminShop/OpenGUI"
+    },
+    {
+      "name": "ReturnPriceItem1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_price_item_1",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/adm/procedures/ReturnPriceItem1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminShop/Return"
+    },
+    {
+      "name": "Reglage",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reglage",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/world/inventory/ReglageMenu.java",
+          "src/main/java/net/adm/client/gui/ReglageScreen.java",
+          "src/main/java/net/adm/network/ReglageButtonMessage.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "OpenREGLAGE",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_reglage",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/procedures/OpenREGLAGEProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminSHopEDIT/OpenGUIEDIT"
+    },
+    {
+      "name": "ReglageSETITEM",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reglage_setitem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/procedures/ReglageSETITEMProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminSHopEDIT"
+    },
+    {
+      "name": "Item1EDIT",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "item_1_edit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/world/inventory/Item1EDITMenu.java",
+          "src/main/java/net/adm/network/Item1EDITButtonMessage.java",
+          "src/main/java/net/adm/client/gui/Item1EDITScreen.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "OpenItem1EDIT",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_item_1_edit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/procedures/OpenItem1EDITProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminSHopEDIT/OpenGUIEDIT"
+    },
+    {
+      "name": "RegisterItem1EDIT",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "register_item_1_edit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/procedures/RegisterItem1EDITProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminSHopEDIT/Register"
+    },
+    {
+      "name": "RELOADGUI",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reloadgui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/procedures/RELOADGUIProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminShop"
+    },
+    {
+      "name": "BUYITEM1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buyitem_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/procedures/BUYITEM1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminShop/Purchase"
+    },
+    {
+      "name": "Item2EDIT",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "item_2_edit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/network/Item2EDITButtonMessage.java",
+          "src/main/java/net/adm/world/inventory/Item2EDITMenu.java",
+          "src/main/java/net/adm/client/gui/Item2EDITScreen.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "OpenItem2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_item_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/procedures/OpenItem2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminSHopEDIT/OpenGUIEDIT"
+    },
+    {
+      "name": "RegisterItem2EDIT",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "register_item_2_edit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/procedures/RegisterItem2EDITProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminSHopEDIT/Register"
+    },
+    {
+      "name": "ReturnPriceItem2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_price_item_2",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/adm/procedures/ReturnPriceItem2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminShop/Return"
+    },
+    {
+      "name": "BUYITEM2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buyitem_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/procedures/BUYITEM2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminShop/Purchase"
+    },
+    {
+      "name": "Item3EDIT",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "item_3_edit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/network/Item3EDITButtonMessage.java",
+          "src/main/java/net/adm/world/inventory/Item3EDITMenu.java",
+          "src/main/java/net/adm/client/gui/Item3EDITScreen.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "RegisterItem3EDIT",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "register_item_3_edit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/procedures/RegisterItem3EDITProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminSHopEDIT/Register"
+    },
+    {
+      "name": "OpenItem3",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_item_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/procedures/OpenItem3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminSHopEDIT/OpenGUIEDIT"
+    },
+    {
+      "name": "ReturnPriceItem3",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_price_item_3",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/adm/procedures/ReturnPriceItem3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminShop/Return"
+    },
+    {
+      "name": "BUYITEM3",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buyitem_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/procedures/BUYITEM3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminShop/Purchase"
+    },
+    {
+      "name": "Item4EDIT",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "item_4_edit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/network/Item4EDITButtonMessage.java",
+          "src/main/java/net/adm/client/gui/Item4EDITScreen.java",
+          "src/main/java/net/adm/world/inventory/Item4EDITMenu.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "RegisterItem4EDIT",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "register_item_4_edit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/procedures/RegisterItem4EDITProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminSHopEDIT/Register"
+    },
+    {
+      "name": "OpenItem4",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_item_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/procedures/OpenItem4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminSHopEDIT/OpenGUIEDIT"
+    },
+    {
+      "name": "BUYITEM4",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buyitem_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/procedures/BUYITEM4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminShop/Purchase"
+    },
+    {
+      "name": "ReturnPriceItem4",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_price_item_4",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/adm/procedures/ReturnPriceItem4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminShop/Return"
+    },
+    {
+      "name": "Item5EDIT",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "item_5_edit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/network/Item5EDITButtonMessage.java",
+          "src/main/java/net/adm/client/gui/Item5EDITScreen.java",
+          "src/main/java/net/adm/world/inventory/Item5EDITMenu.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "RegisterItem5EDIT",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "register_item_5_edit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/procedures/RegisterItem5EDITProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminSHopEDIT/Register"
+    },
+    {
+      "name": "OpenItem5",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_item_5",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/procedures/OpenItem5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminSHopEDIT/OpenGUIEDIT"
+    },
+    {
+      "name": "BUYITEM5",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buyitem_5",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/procedures/BUYITEM5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminShop/Purchase"
+    },
+    {
+      "name": "ReturnPriceItem5",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_price_item_5",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/adm/procedures/ReturnPriceItem5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminShop/Return"
+    },
+    {
+      "name": "Item6EDIT",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "item_6_edit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/world/inventory/Item6EDITMenu.java",
+          "src/main/java/net/adm/client/gui/Item6EDITScreen.java",
+          "src/main/java/net/adm/network/Item6EDITButtonMessage.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "RegisterItem6EDIT",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "register_item_6_edit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/procedures/RegisterItem6EDITProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminSHopEDIT/Register"
+    },
+    {
+      "name": "OpenItem6",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_item_6",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/procedures/OpenItem6Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminSHopEDIT/OpenGUIEDIT"
+    },
+    {
+      "name": "ReturnPriceItem6",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_price_item_6",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/adm/procedures/ReturnPriceItem6Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminShop/Return"
+    },
+    {
+      "name": "BUYITEM6",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buyitem_6",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/procedures/BUYITEM6Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminShop/Purchase"
+    },
+    {
+      "name": "Item7EDIT",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "item_7_edit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/network/Item7EDITButtonMessage.java",
+          "src/main/java/net/adm/world/inventory/Item7EDITMenu.java",
+          "src/main/java/net/adm/client/gui/Item7EDITScreen.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "RegisterItem7EDIT",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "register_item_7_edit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/procedures/RegisterItem7EDITProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminSHopEDIT/Register"
+    },
+    {
+      "name": "OpenItem7",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_item_7",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/procedures/OpenItem7Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminSHopEDIT/OpenGUIEDIT"
+    },
+    {
+      "name": "ReturnPriceItem7",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_price_item_7",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/adm/procedures/ReturnPriceItem7Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminShop/Return"
+    },
+    {
+      "name": "BUYITEM7",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buyitem_7",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/procedures/BUYITEM7Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminShop/Purchase"
+    },
+    {
+      "name": "Item8EDIT",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "item_8_edit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/network/Item8EDITButtonMessage.java",
+          "src/main/java/net/adm/world/inventory/Item8EDITMenu.java",
+          "src/main/java/net/adm/client/gui/Item8EDITScreen.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "OpenItem8",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_item_8",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/procedures/OpenItem8Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminSHopEDIT/OpenGUIEDIT"
+    },
+    {
+      "name": "RegisterItem8EDIT",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "register_item_8_edit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/procedures/RegisterItem8EDITProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminSHopEDIT/Register"
+    },
+    {
+      "name": "ReturnPriceItem8",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_price_item_8",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/adm/procedures/ReturnPriceItem8Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminShop/Return"
+    },
+    {
+      "name": "BUYITEM8",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buyitem_8",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/procedures/BUYITEM8Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminShop/Purchase"
+    },
+    {
+      "name": "Item9EDIT",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "item_9_edit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/network/Item9EDITButtonMessage.java",
+          "src/main/java/net/adm/world/inventory/Item9EDITMenu.java",
+          "src/main/java/net/adm/client/gui/Item9EDITScreen.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "ReturnPriceItem9",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_price_item_9",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/adm/procedures/ReturnPriceItem9Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminShop/Return"
+    },
+    {
+      "name": "BUYITEM9",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buyitem_9",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/procedures/BUYITEM9Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminShop/Purchase"
+    },
+    {
+      "name": "OpenItem9",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_item_9",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/procedures/OpenItem9Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminSHopEDIT/OpenGUIEDIT"
+    },
+    {
+      "name": "RegisterItem9EDIT",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "register_item_9_edit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/procedures/RegisterItem9EDITProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminSHopEDIT/Register"
+    },
+    {
+      "name": "Item10EDIT",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "item_10_edit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/network/Item10EDITButtonMessage.java",
+          "src/main/java/net/adm/client/gui/Item10EDITScreen.java",
+          "src/main/java/net/adm/world/inventory/Item10EDITMenu.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "ReturnPriceItem10",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_price_item_10",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/adm/procedures/ReturnPriceItem10Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminShop/Return"
+    },
+    {
+      "name": "BUYITEM10",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buyitem_10",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/procedures/BUYITEM10Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminShop/Purchase"
+    },
+    {
+      "name": "OpenItem10",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_item_10",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/procedures/OpenItem10Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminSHopEDIT/OpenGUIEDIT"
+    },
+    {
+      "name": "RegisterItem10EDIT",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "register_item_10_edit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/procedures/RegisterItem10EDITProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminSHopEDIT/Register"
+    },
+    {
+      "name": "Item11EDIT",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "item_11_edit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/network/Item11EDITButtonMessage.java",
+          "src/main/java/net/adm/client/gui/Item11EDITScreen.java",
+          "src/main/java/net/adm/world/inventory/Item11EDITMenu.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "Item12EDIT",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "item_12_edit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/client/gui/Item12EDITScreen.java",
+          "src/main/java/net/adm/network/Item12EDITButtonMessage.java",
+          "src/main/java/net/adm/world/inventory/Item12EDITMenu.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "ReturnPriceItem11",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_price_item_11",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/adm/procedures/ReturnPriceItem11Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminShop/Return"
+    },
+    {
+      "name": "ReturnPriceItem12",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_price_item_12",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/adm/procedures/ReturnPriceItem12Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminShop/Return"
+    },
+    {
+      "name": "BUYITEM11",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buyitem_11",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/procedures/BUYITEM11Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminShop/Purchase"
+    },
+    {
+      "name": "BUYITEM12",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buyitem_12",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/procedures/BUYITEM12Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminShop/Purchase"
+    },
+    {
+      "name": "OpenItem11",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_item_11",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/procedures/OpenItem11Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminSHopEDIT/OpenGUIEDIT"
+    },
+    {
+      "name": "OpenItem12",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_item_12",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/procedures/OpenItem12Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminSHopEDIT/OpenGUIEDIT"
+    },
+    {
+      "name": "RegisterItem11EDIT",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "register_item_11_edit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/procedures/RegisterItem11EDITProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminSHopEDIT/Register"
+    },
+    {
+      "name": "RegisterItem12EDIT",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "register_item_12_edit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/adm/procedures/RegisterItem12EDITProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/AdminSHopEDIT/Register"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "Item1MONEY",
+      "type": "string",
+      "scope": "map",
+      "value": ""
+    },
+    {
+      "name": "Item1",
+      "type": "itemstack",
+      "scope": "map",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "Item1NSTACKS",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "ItemMONEY",
+      "type": "itemstack",
+      "scope": "map",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "Item2NSTACKS",
+      "type": "number",
+      "scope": "map",
+      "value": "0.0"
+    },
+    {
+      "name": "Item2",
+      "type": "itemstack",
+      "scope": "map",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "Item2MONEY",
+      "type": "string",
+      "scope": "map",
+      "value": ""
+    },
+    {
+      "name": "Item3NSTACK",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "Item3MONEY",
+      "type": "string",
+      "scope": "map",
+      "value": ""
+    },
+    {
+      "name": "Item3",
+      "type": "itemstack",
+      "scope": "map",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "Item4",
+      "type": "itemstack",
+      "scope": "map",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "Item4MONEY",
+      "type": "string",
+      "scope": "map",
+      "value": ""
+    },
+    {
+      "name": "Item4NSTACKS",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "Item5NSTACK",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "Item5MONEY",
+      "type": "string",
+      "scope": "map",
+      "value": ""
+    },
+    {
+      "name": "Item5",
+      "type": "itemstack",
+      "scope": "map",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "Item6NSTACK",
+      "type": "number",
+      "scope": "map",
+      "value": "0.0"
+    },
+    {
+      "name": "Item6MONEY",
+      "type": "string",
+      "scope": "map",
+      "value": ""
+    },
+    {
+      "name": "Item6",
+      "type": "itemstack",
+      "scope": "map",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "Item7NSTACK",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "Item7MONEY",
+      "type": "string",
+      "scope": "map",
+      "value": ""
+    },
+    {
+      "name": "Item7",
+      "type": "itemstack",
+      "scope": "map",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "Item8NSTACK",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "Item8MONEY",
+      "type": "string",
+      "scope": "map",
+      "value": ""
+    },
+    {
+      "name": "Item8",
+      "type": "itemstack",
+      "scope": "map",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "Item9NSTACK",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "Item9MONEY",
+      "type": "string",
+      "scope": "map",
+      "value": ""
+    },
+    {
+      "name": "Item9",
+      "type": "itemstack",
+      "scope": "map",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "Item10NSTACK",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "Item10MONEY",
+      "type": "string",
+      "scope": "map",
+      "value": ""
+    },
+    {
+      "name": "Item10",
+      "type": "itemstack",
+      "scope": "map",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "Item11NSTACK",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "Item11MONEY",
+      "type": "string",
+      "scope": "map",
+      "value": ""
+    },
+    {
+      "name": "Item11",
+      "type": "itemstack",
+      "scope": "map",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "Item12NSTACK",
+      "type": "number",
+      "scope": "map",
+      "value": "0.0"
+    },
+    {
+      "name": "Item12MONEY",
+      "type": "string",
+      "scope": "map",
+      "value": "\"\""
+    },
+    {
+      "name": "Item12",
+      "type": "itemstack",
+      "scope": "map",
+      "value": "ItemStack.EMPTY"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "done",
+      "files": [
+        "orb"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "gui.adm.item_4_edit.Money": "Money",
+      "gui.adm.item_11_edit.label_empty": "$",
+      "gui.adm.adminshop_p_1.button_reload": "Reload",
+      "gui.adm.adminshop_editmode.teste": "teste",
+      "gui.adm.item_7_edit.Money": "Money",
+      "gui.adm.item_7_edit.button_done": "Done",
+      "gui.adm.item_6_edit.label_empty": "$",
+      "gui.adm.adminshop_editmode.button_done": "Done",
+      "gui.adm.item_10_edit.label_empty": "$",
+      "gui.adm.reglage.button_done": "Done",
+      "gui.adm.item_6_edit.button_done": "Done",
+      "gui.adm.item_7_edit.label_empty": "$",
+      "gui.adm.item_3_edit.label_empty": "$",
+      "subtitles.done": "",
+      "gui.adm.item_5_edit.button_done": "Done",
+      "gui.adm.item_2_edit.label_empty": "$",
+      "gui.adm.item_5_edit.Money": "Money",
+      "gui.adm.item_10_edit.Money": "Money",
+      "gui.adm.item_10_edit.button_done": "Done",
+      "gui.adm.reglage.label_money": "Money",
+      "gui.adm.item_8_edit.label_empty": "$",
+      "gui.adm.adminshop_editmode.button_7": "7",
+      "gui.adm.adminshop_p_1.button_empty2": "",
+      "gui.adm.adminshop_p_1.button_empty1": "",
+      "gui.adm.adminshop_editmode.button_8": "8",
+      "gui.adm.adminshop_editmode.button_5": "5",
+      "gui.adm.adminshop_p_1.button_empty4": "",
+      "gui.adm.adminshop_editmode.button_6": "6",
+      "gui.adm.adminshop_p_1.button_empty3": "",
+      "gui.adm.item_3_edit.button_done": "Done",
+      "gui.adm.item_12_edit.button_done": "Done",
+      "gui.adm.adminshop_editmode.button_9": "9",
+      "gui.adm.item_12_edit.label_empty": "$",
+      "gui.adm.adminshop_p_1.button_empty9": "",
+      "gui.adm.item_11_edit.Money": "Money",
+      "gui.adm.adminshop_editmode.button_3": "3",
+      "gui.adm.adminshop_editmode.button_12": "12",
+      "gui.adm.adminshop_p_1.button_empty6": "",
+      "gui.adm.item_5_edit.label_empty": "$",
+      "gui.adm.adminshop_editmode.button_4": "4",
+      "gui.adm.adminshop_p_1.button_empty5": "",
+      "gui.adm.adminshop_editmode.button_1": "1",
+      "gui.adm.adminshop_editmode.button_10": "10",
+      "gui.adm.adminshop_p_1.button_empty8": "",
+      "gui.adm.adminshop_editmode.button_2": "2",
+      "gui.adm.adminshop_editmode.button_11": "11",
+      "gui.adm.adminshop_p_1.button_empty7": "",
+      "gui.adm.item_8_edit.button_done": "Done",
+      "gui.adm.item_2_edit.button_done": "Done",
+      "gui.adm.item_12_edit.Money": "Money",
+      "gui.adm.item_3_edit.Money": "Money",
+      "gui.adm.adminshop_p_1.button_empty": "",
+      "gui.adm.item_1_edit.button_done": "Done",
+      "gui.adm.item_6_edit.Money": "Money",
+      "gui.adm.adminshop_p_1.button_empty10": "",
+      "gui.adm.adminshop_p_1.button_empty11": "",
+      "gui.adm.item_9_edit.Money": "Money",
+      "gui.adm.item_2_edit.Money": "Money",
+      "gui.adm.item_9_edit.button_done": "Done",
+      "gui.adm.item_4_edit.label_empty": "$",
+      "gui.adm.item_9_edit.label_empty": "$",
+      "gui.adm.item_1_edit.Money": "Money",
+      "gui.adm.item_1_edit.label_empty": "$",
+      "gui.adm.item_4_edit.button_done": "Done",
+      "gui.adm.item_11_edit.button_done": "Done",
+      "gui.adm.item_8_edit.Money": "Money"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "GUI",
+        "children": []
+      },
+      {
+        "name": "Procedure",
+        "children": [
+          {
+            "name": "AdminShop",
+            "children": [
+              {
+                "name": "Return",
+                "children": []
+              },
+              {
+                "name": "OpenGUI",
+                "children": []
+              },
+              {
+                "name": "Purchase",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "AdminSHopEDIT",
+            "children": [
+              {
+                "name": "OpenGUIEDIT",
+                "children": []
+              },
+              {
+                "name": "Register",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Misc",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "adm",
+    "modName": "adm",
+    "version": "1.0.0",
+    "description": "Nothings...",
+    "author": "ODP Studios DEV",
+    "websiteURL": "https://www.youtube.com/",
+    "license": "All Rights Reserved",
+    "serverSideOnly": false,
+    "modPicture": "v0jkegvtmm5ic3mrbjjvy292zm9rnlp4qwrozkj4qnnvzzvmuuhxd1pvbz0",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "LICENCE ALL RIGHTS RESERVED",
+    "modElementsPackage": "net.adm"
+  },
+  "mcreatorVersion": 202500220614
+}

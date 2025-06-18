@@ -1,0 +1,228 @@
+{
+  "_fv": 79,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 265,
+    "height": 212,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 167,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_1",
+          "text": "1",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "OpenItem1EDIT"
+          },
+          "width": 30,
+          "height": 20,
+          "x": 108,
+          "y": 66,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_2",
+          "text": "2",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "OpenItem2"
+          },
+          "width": 30,
+          "height": 20,
+          "x": 167,
+          "y": 66,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_3",
+          "text": "3",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "OpenItem3"
+          },
+          "width": 30,
+          "height": 20,
+          "x": 225,
+          "y": 66,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_4",
+          "text": "4",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "OpenItem4"
+          },
+          "width": 30,
+          "height": 20,
+          "x": 285,
+          "y": 66,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_5",
+          "text": "5",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "OpenItem5"
+          },
+          "width": 30,
+          "height": 20,
+          "x": 108,
+          "y": 116,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_6",
+          "text": "6",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "OpenItem6"
+          },
+          "width": 30,
+          "height": 20,
+          "x": 167,
+          "y": 116,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_7",
+          "text": "7",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "OpenItem7"
+          },
+          "width": 30,
+          "height": 20,
+          "x": 225,
+          "y": 116,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_8",
+          "text": "8",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "OpenItem8"
+          },
+          "width": 30,
+          "height": 20,
+          "x": 285,
+          "y": 116,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_9",
+          "text": "9",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "OpenItem9"
+          },
+          "width": 30,
+          "height": 20,
+          "x": 108,
+          "y": 165,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_10",
+          "text": "10",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "OpenItem10"
+          },
+          "width": 35,
+          "height": 20,
+          "x": 164,
+          "y": 165,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_11",
+          "text": "11",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "OpenItem11"
+          },
+          "width": 35,
+          "height": 20,
+          "x": 223,
+          "y": 165,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_12",
+          "text": "12",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "OpenItem12"
+          },
+          "width": 35,
+          "height": 20,
+          "x": 282,
+          "y": 165,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_boutonparametrespixelarticon",
+          "image": "dffff.png",
+          "hoveredImage": "boblink5.png",
+          "onClick": {
+            "name": "OpenREGLAGE"
+          },
+          "x": 300,
+          "y": 19,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}
