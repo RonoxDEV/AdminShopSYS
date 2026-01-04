@@ -1,7 +1,7 @@
 # 🛒 AdminShopSYS (Deprecated)
 
 ![Minecraft Version](https://img.shields.io/badge/Minecraft-1.20.1-blue?style=for-the-badge&logo=minecraft)
-![Forge](https://img.shields.io/badge/Forge-supported-orange?style=for-the-badge&logo=forge)
+![Forge](https://img.shields.io/badge/NeoForge-supported-orange?style=for-the-badge&logo=forge)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
 **AdminShopSYS** is a robust and lightweight administrator shop system. It allows server owners to set up a controlled economy with a simple and efficient interface for players.
