@@ -1,6 +1,6 @@
 # 🛒 AdminShopSYS (Deprecated)
 
-![Minecraft Version](https://img.shields.io/badge/Minecraft-1.20.1-blue?style=for-the-badge&logo=minecraft)
+![Minecraft Version](https://img.shields.io/badge/Minecraft-1.21.4-blue?style=for-the-badge&logo=minecraft)
 ![Forge](https://img.shields.io/badge/NeoForge-supported-orange?style=for-the-badge&logo=forge)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
